@@ -1,0 +1,9 @@
+name: HeadTop
+version: 0.1
+description: Factions Top Plugin
+author: Headshot
+main: me.headshot.headtop.HeadTop
+depend: [Factions, Vault]
+commands:
+  ftop:
+  recalc:

@@ -1,0 +1,8 @@
+name: INeedJesus
+version: 0.0.1
+description: I need jesus, and so do you!
+author: Headshot
+main: me.headshot.ineedjesus.INeedJesus
+commands:
+  getjesus:
+    description: Gets jesus for you.

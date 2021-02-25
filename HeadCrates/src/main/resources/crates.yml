@@ -1,0 +1,978 @@
+crates:
+  vote:
+    items:
+      1:
+        item: DIAMOND_SWORD
+        meta: 0
+        name: "Vote Sword"
+        commands: ['kit VoteSword %player%']
+        percentage: 55
+        tier: 1
+      2:
+        item:  DIAMOND_PICKAXE
+        meta:  0
+        name:  "Vote Pickaxe"
+        commands: ['kit VotePickaxe %player%']
+        percentage: 50
+        tier: 1
+      3:
+        item: DIAMOND_CHESTPLATE
+        meta: 0
+        name: "Vote Kit"
+        commands: ['kit VoteKit %player%']
+        percentage: 30
+        tier: 1
+      4:
+        item: TNT
+        meta: 0
+        name: "Inv Of TNT"
+        commands: ['voucher give tnt %player%']
+        percentage: 10
+        tier: 2
+      5:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 1 MoneyPouch"
+        commands: ['Mp 1 %player%']
+        percentage: 50
+        tier: 1
+      6:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 2 MoneyPouch"
+        commands: ['Mp 2 %player%']
+        percentage: 25
+        tier: 1
+      7:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 3 MoneyPouch"
+        commands: ['Mp 3 %player%']
+        percentage: 10
+        tier: 1
+      8:
+        item: SPONGE
+        meta: 0
+        name: "Sponge"
+        commands: ['give %player% 19 64']
+        percentage: 80
+        tier: 2
+      9:
+        item: BEACON
+        meta: 0
+        name: "Beacon"
+        commands: ['give %player% 138 1']
+        percentage: 5
+        tier: 3
+      10:
+        item: MAP
+        meta: 0
+        name: "3 vote MAPS"
+        commands: ['icrates give %player% vote 3']
+        percentage: 3
+        tier: 3
+      11:
+        item: MAP
+        meta: 0
+        name: "1 basic MAP"
+        commands: ['icrates give %player% basic 1']
+        percentage: 1
+        tier: 4
+      12:
+        item: REDSTONE
+        meta: 0
+        name: "Thief Rank"
+        commands: ['voucher give rankup 1 %player% Thief']
+        percentage: 0.5
+        tier: 4
+      13:
+        item: REDSTONE
+        meta: 0
+        name: "Mercenary Rank"
+        commands: ['voucher give rankup 1 %player% Mercenary']
+        percentage: 0.1
+        tier: 4
+  basic:
+    items:
+      1:
+        item: DIAMOND_PICKAXE
+        meta: 0
+        name: "Tools(1 time)"
+        commands: ['voucher give actualkit 1 %player% Miner']
+        percentage: 10
+        tier: 1
+      2:
+        item: DIAMOND_CHESTPLATE
+        meta: 0
+        name: "God kit(1 time)"
+        commands: ['voucher give actualkit 1 %player% God']
+        percentage: 20
+        tier: 1
+      3:
+        item: TNT
+        meta: 0
+        name: "Inv of TNT"
+        commands: ['voucher give tnt %player%']
+        percentage: 75
+        tier: 1
+      4:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Blaze spawner"
+        commands: ['ss give %player% blaze']
+        percentage: 50
+        tier: 4
+      5:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Creeper spawner"
+        commands: ['ss give %player% Creeper']
+        percentage: 25
+        tier: 4
+      6:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Enderman spawner"
+        commands: ['ss give %player% Enderman']
+        percentage: 10
+        tier: 4
+      7:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Zpigman spawner"
+        commands: ['ss give %player% Zpigman']
+        percentage: 5
+        tier: 4
+      8:
+        item: REDSTONE
+        meta: 0
+        name: "Mercenary Rank"
+        commands: ['voucher give rankup 1 %player% Mercenary']
+        percentage: 1
+        tier: 5
+      9:
+        item: REDSTONE
+        meta: 0
+        name: "Knight Rank"
+        commands: ['voucher give rankup 1 %player% Knight']
+        percentage: 0.1
+        tier: 5
+      10:
+        item: DIAMOND
+        meta: 0
+        name: "3x GSet"
+        commands: ['voucher give gset 3 %player%']
+        percentage: 65
+        tier: 3
+      11:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 1 MoneyPouch"
+        commands: ['Mp 1 %player%']
+        percentage: 80
+        tier: 1
+      12:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 2 MoneyPouch"
+        commands: ['Mp 2 %player%']
+        percentage: 60
+        tier: 1
+      13:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 3 MoneyPouch"
+        commands: ['Mp 3 %player%']
+        percentage: 50
+        tier: 1
+      14:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 4 MoneyPouch"
+        commands: ['Mp 4 %player%']
+        percentage: 40
+        tier: 2
+      15:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 5 MoneyPouch"
+        commands: ['Mp 5 %player%']
+        percentage: 70
+        tier: 2
+      16:
+        item: MAP
+        meta: 0
+        name: "1 Advanced MAP"
+        commands: ['icrates give %player% Advanced 1']
+        percentage: 35
+        tier: 4
+      17:
+        item: MAP
+        meta: 0
+        name: "2 Basic MAPs"
+        commands: ['icrates give %player% basic 1']
+        percentage: 1
+        tier: 2
+      18:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "1000 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 1000']
+        percentage: 75
+        tier: 2
+  advanced:
+    items:
+      1:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 5 MoneyPouch"
+        commands: ['Mp 5 %player%']
+        percentage: 70
+        tier: 1
+      2:
+        item: PAPER
+        meta: 0
+        name: "100k"
+        commands: ['eco give %player% 100000']
+        percentage: 50
+        tier: 1
+      3:
+        item: PAPER
+        meta: 0
+        name: "250k"
+        commands: ['eco give %player% 250000']
+        percentage: 25
+        tier: 2
+      4:
+        item: PAPER
+        meta: 0
+        name: "500k"
+        commands: ['eco give %player% 500000']
+        percentage: 12.5
+        tier: 2
+      5:
+        item: PAPER
+        meta: 0
+        name: "750k"
+        commands: ['eco give %player% 750000']
+        percentage: 5
+        tier: 3
+      6:
+        item: PAPER
+        meta: 0
+        name: "1Million"
+        commands: ['eco give %player% 1000000']
+        percentage: 1
+        tier: 4
+      7:
+        item: MAP
+        meta: 0
+        name: "2 Advanced MAPs"
+        commands: ['icrates give %player% Advanced 2']
+        percentage: 10
+        tier: 2
+      8:
+        item: REDSTONE
+        meta: 0
+        name: "Knight Rank"
+        commands: ['voucher give rankup 1 %player% Knight']
+        percentage: 1
+        tier: 5
+      9:
+        item: REDSTONE
+        meta: 0
+        name: "Duke Rank"
+        commands: ['voucher give rankup 1 %player% Duke']
+        percentage: 0.1
+        tier: 5
+      10:
+        item: DIAMOND
+        meta: 0
+        name: "4x GSet"
+        commands: ['voucher give gset 4 %player%']
+        percentage: 65
+        tier: 3
+      11:
+        item: TNT
+        meta: 0
+        name: "8x Inv of TNT"
+        commands: ['voucher give tnt 8 %player%']
+        percentage: 80
+        tier: 2
+      12:
+        item: DIAMOND_Chestplate
+        meta: 0
+        name: "battle kit"
+        commands: ['voucher give kit 1 %player% battle']
+        percentage: 5
+        tier: 3
+      13:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Blaze spawner"
+        commands: ['ss give %player% blaze']
+        percentage: 60
+        tier: 4
+      14:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Creeper spawner"
+        commands: ['ss give %player% Creeper']
+        percentage: 35
+        tier: 4
+      15:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Enderman spawner"
+        commands: ['ss give %player% Enderman']
+        percentage: 20
+        tier: 4
+      16:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Zpigman spawner"
+        commands: ['ss give %player% Zpigman']
+        percentage: 15
+        tier: 4
+      17:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "1000 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 1000']
+        percentage: 75
+        tier: 1
+      18:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "2500 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 2500']
+        percentage: 50
+        tier: 2
+  iratus:
+    items:
+      1:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 5 MoneyPouch"
+        commands: ['Mp 5 %player%']
+        percentage: 50
+        tier: 1
+      2:
+        item: PAPER
+        meta: 0
+        name: "100k"
+        commands: ['eco give %player% 100000']
+        percentage: 45
+        tier: 2
+      3:
+        item: PAPER
+        meta: 0
+        name: "250k"
+        commands: ['eco give %player% 250000']
+        percentage: 50
+        tier: 2
+      4:
+        item: PAPER
+        meta: 0
+        name: "500k"
+        commands: ['eco give %player% 500000']
+        percentage: 60
+        tier: 3
+      5:
+        item: PAPER
+        meta: 0
+        name: "750k"
+        commands: ['eco give %player% 750000']
+        percentage: 45
+        tier: 4
+      6:
+        item: PAPER
+        meta: 0
+        name: "1Million"
+        commands: ['eco give %player% 1000000']
+        percentage: 12
+        tier: 4
+      7:
+        item: MAP
+        meta: 0
+        name: "3 Advanced MAPs"
+        commands: ['icrates give %player% Advanced 3']
+        percentage: 35
+        tier: 2
+      8:
+        item: MAP
+        meta: 0
+        name: "2 Iratus MAPs"
+        commands: ['icrates give %player% iratus 2']
+        percentage: 20
+        tier: 3
+      9:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "2 Blaze spawners"
+        commands: ['ss give %player% blaze 2']
+        percentage: 76
+        tier: 4
+      10:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "2 Creeper spawners"
+        commands: ['ss give %player% Creeper 2']
+        percentage: 60
+        tier: 4
+      11:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "2 Enderman spawners"
+        commands: ['ss give %player% Enderman 2']
+        percentage: 47
+        tier: 4
+      12:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "2 Zpigman spawners"
+        commands: ['ss give %player% Zpigman 2']
+        percentage: 35
+        tier: 4
+      13:
+        item: DIAMOND
+        meta: 0
+        name: "6x GSet"
+        commands: ['voucher give gset 6 %player%']
+        percentage: 75
+        tier: 2
+      14:
+        item: TNT
+        meta: 0
+        name: "12x Inv of TNT"
+        commands: ['voucher give tnt 12 %player%']
+        percentage: 85
+        tier: 3
+      15:
+        item: DIAMOND_CHESTPLATE
+        meta: 0
+        name: "battle kit"
+        commands: ['voucher give kit 1 %player% battle']
+        percentage: 10
+        tier: 2
+      16:
+        item: PAPER
+        meta: 0
+        name: "Duke Rank"
+        commands: ['voucher give rankup %player% duke']
+        percentage: 1
+        tier: 5
+      17:
+        item: PAPER
+        meta: 0
+        name: "Baron Rank"
+        commands: ['voucher give rankup %player% baron']
+        percentage: 0.1
+        tier: 5
+      18:
+        item: PAPER
+        meta: 0
+        name: "Prince Rank"
+        commands: ['voucher give rankup %player% prince']
+        percentage: 0
+        tier: 5
+      19:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "1000 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 1000']
+        percentage: 75
+        tier: 1
+      20:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "2500 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 2500']
+        percentage: 50
+        tier: 2
+      21:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "5000 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 5000']
+        percentage: 25
+        tier: 3
+  ultra-rare:
+    items:
+      1:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Pig spawner"
+        commands: ['ss give %player% Pig']
+        percentage: 95
+        tier: 1
+      2:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "cow spawner"
+        commands: ['ss give %player% blaze']
+        percentage: 85
+        tier: 1
+      3:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "3 cave-spider spawners"
+        commands: ['ss give %player% cspider 3']
+        percentage: 70
+        tier: 2
+      4:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "3 spider spawners"
+        commands: ['ss give %player% spider 3']
+        percentage: 70
+        tier: 2
+      5:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "4 zombie spawner"
+        commands: ['ss give %player% zombie 4']
+        percentage: 70
+        tier: 2
+      6:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "4 skeleton spawner"
+        commands: ['ss give %player% skele 4']
+        percentage: 70
+        tier: 2
+      7:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "3 Blaze spawners"
+        commands: ['ss give %player% blaze 3']
+        percentage: 50
+        tier: 3
+      8:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "3 Creeper spawners"
+        commands: ['ss give %player% Creeper 3']
+        percentage: 40
+        tier: 3
+      9:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "3 Enderman spawner"
+        commands: ['ss give %player% Enderman 3']
+        percentage: 25
+        tier: 3
+      10:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "4 Zpigman spawner"
+        commands: ['ss give %player% Zpigman 4']
+        percentage: 10
+        tier: 4
+      11:
+        item: PAPER
+        meta: 0
+        name: "100k"
+        commands: ['eco give %player% 100000']
+        percentage: 75
+        tier: 1
+      12:
+        item: PAPER
+        meta: 0
+        name: "250k"
+        commands: ['eco give %player% 250000']
+        percentage: 70
+        tier: 2
+      13:
+        item: PAPER
+        meta: 0
+        name: "500k"
+        commands: ['eco give %player% 500000']
+        percentage: 60
+        tier: 3
+      14:
+        item: PAPER
+        meta: 0
+        name: "750k"
+        commands: ['eco give %player% 750000']
+        percentage: 50
+        tier: 4
+      15:
+        item: PAPER
+        meta: 0
+        name: "1Million"
+        commands: ['eco give %player% 1000000']
+        percentage: 40
+        tier: 4
+      16:
+        item: PAPER
+        meta: 0
+        name: "Duke Rank"
+        commands: ['voucher give rankup %player% duke']
+        percentage: 7
+        tier: 5
+      17:
+        item: PAPER
+        meta: 0
+        name: "Baron Rank"
+        commands: ['voucher give rankup %player% baron']
+        percentage: 5
+        tier: 5
+      18:
+        item: PAPER
+        meta: 0
+        name: "Prince Rank"
+        commands: ['voucher give rankup %player% prince']
+        percentage: 3
+        tier: 5
+      19:
+        item: PAPER
+        meta: 0
+        name: "Assassin Rank"
+        commands: ['voucher give rankup %player% assassin']
+        percentage: 1
+        tier: 5
+  tier-1-egg:
+    items:
+      1:
+        item: LAVA_BUCKET
+        meta: 0
+        name: "64 lava buckets"
+        commands: ['give %player% 327 64']
+        percentage: 60
+        tier: 1
+      2:
+        item: WATER_BUCKET
+        meta: 0
+        name: "128 Water buckets"
+        commands: ['give %player% 326 128']
+        percentage: 70
+        tier: 1
+      3:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 1 MoneyPouch"
+        commands: ['mp 1 %player%']
+        percentage: 65
+        tier: 1
+      4:
+        item: TNT
+        meta: 0
+        name: "Inv Of TNT"
+        commands: ['voucher give tnt %player%']
+        percentage: 60
+        tier: 1
+      5:
+        item: SPONGE
+        meta: 0
+        name: "16 Sponges"
+        commands: ['give %player% 19 16']
+        percentage: 80
+        tier: 1
+      6:
+        item: DIRT
+        meta: 0
+        name: "64 Dirt"
+        commands: ['give %player% dirt 64']
+        percentage: 70
+        tier: 1
+      7:
+        item: STONE
+        meta: 0
+        name: "64 stone"
+        commands: ['give %player% stone 64']
+        percentage: 70
+        tier: 1
+      8:
+        item: COOKED_BEEF
+        meta: 0
+        name: "64 steak"
+        commands: ['give %player% steak 64']
+        percentage: 60
+        tier: 2
+      9:
+        item: PAPER
+        meta: 0
+        name: "5000 Dollars"
+        commands: ['eco give %player% 5000']
+        percentage: 90
+        tier: 3
+      10:
+        item: PAPER
+        meta: 0
+        name: "10000 Dollars"
+        commands: ['eco give %player% 10000']
+        percentage: 80
+        tier: 4
+      11:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Cow spawner"
+        commands: ['ss give %player% Cow']
+        percentage: 40
+        tier: 5
+      12:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Zombie spawner"
+        commands: ['ss give %player% zombie']
+        percentage: 35
+        tier: 5
+      13:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Creeper spawner"
+        commands: ['ss give %player% creeper']
+        percentage: 2
+        tier: 5
+  tier-2-egg:
+    items:
+      1:
+        item: LAVA_BUCKET
+        meta: 0
+        name: "128 lava buckets"
+        commands: ['give %player% 327 128']
+        percentage: 60
+        tier: 1
+      2:
+        item: WATER_BUCKET
+        meta: 0
+        name: "256 Water buckets"
+        commands: ['give %player% 326 256']
+        percentage: 70
+        tier: 1
+      3:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 1 MoneyPouch"
+        commands: ['mp 1 %player%']
+        percentage: 80
+        tier: 1
+      4:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 2 MoneyPouch"
+        commands: ['mp 2 %player%']
+        percentage: 70
+        tier: 2
+      5:
+        item: ENDER_CHEST
+        meta: 0
+        name: "Tier 3 MoneyPouch"
+        commands: ['mp 3 %player%']
+        percentage: 60
+        tier: 3
+      6:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Cow spawner"
+        commands: ['ss give %player% Cow']
+        percentage: 50
+        tier: 5
+      7:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Zombie spawner"
+        commands: ['ss give %player% zombie']
+        percentage: 45
+        tier: 5
+      8:
+        item: TNT
+        meta: 0
+        name: "Inv Of TNT"
+        commands: ['voucher give tnt %player%']
+        percentage: 60
+        tier: 4
+      9:
+        item: Sponge
+        meta: 0
+        name: "32 Sponges"
+        commands: ['give %player% 19 32']
+        percentage: 80
+        tier: 3
+      10:
+        item: DIRT
+        meta: 0
+        name: "128 Dirt"
+        commands: ['give %player% dirt 128']
+        percentage: 70
+        tier: 2
+      11:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Creeper spawner"
+        commands: ['ss give %player% creeper']
+        percentage: 4
+        tier: 5
+      12:
+        item: PAPER
+        meta: 0
+        name: "25k"
+        commands: ['eco give %player% 25000']
+        percentage: 17
+        tier: 3
+      13:
+        item: PAPER
+        meta: 0
+        name: "50k"
+        commands: ['eco give %player% 50000']
+        percentage: 10
+        tier: 4
+  tier-3-egg:
+    items:
+      1:
+        item: PAPER
+        meta: 0
+        name: "50k"
+        commands: ['eco give %player% 50000']
+        percentage: 25
+        tier: 3
+      2:
+        item: PAPER
+        meta: 0
+        name: "100k"
+        commands: ['eco give %player% 100000']
+        percentage: 20
+        tier: 4
+      3:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Cow spawner"
+        commands: ['ss give %player% Cow']
+        percentage: 60
+        tier: 5
+      4:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Creeper spawner"
+        commands: ['ss give %player% creeper']
+        percentage: 15
+        tier: 5
+      5:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Zpigman spawner"
+        commands: ['ss give %player% Zpigman']
+        percentage: 1
+        tier: 5
+      6:
+        item: HOPPER
+        meta: 0
+        name: "5 Hoppers"
+        commands: ['give %player% hopper 5']
+        percentage: 25
+        tier: 2
+      7:
+        item: TNT
+        meta: 0
+        name: "x3 Inv Of TNT"
+        commands: ['voucher give tnt 3 %player%']
+        percentage: 35
+        tier: 3
+      8:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "cave-spider spawner"
+        commands: ['ss give %player% cspider']
+        percentage: 70
+        tier: 5
+      9:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "1000 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 1000']
+        percentage: 50
+        tier: 3
+      10:
+        item: MAP
+        meta: 0
+        name: "1 Basic MAP"
+        commands: ['icrates give %player% Basic 1']
+        percentage: 18
+        tier: 3
+  tier-4-egg:
+    items:
+      1:
+        item: PAPER
+        meta: 0
+        name: "150k"
+        commands: ['eco give %player% 150000']
+        percentage: 10
+        tier: 4
+      2:
+        item: PAPER
+        meta: 0
+        name: "100k"
+        commands: ['eco give %player% 100000']
+        percentage: 20
+        tier: 3
+      3:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Cow spawner"
+        commands: ['ss give %player% Cow']
+        percentage: 60
+        tier: 4
+      4:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Creeper spawner"
+        commands: ['ss give %player% creeper']
+        percentage: 25
+        tier: 5
+      5:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "Zpigman spawner"
+        commands: ['ss give %player% Zpigman']
+        percentage: 6
+        tier: 5
+      6:
+        item: HOPPER
+        meta: 0
+        name: "10 Hoppers"
+        commands: ['give %player% hopper 10']
+        percentage: 45
+        tier: 3
+      7:
+        item: TNT
+        meta: 0
+        name: "x5 Inv Of TNT"
+        commands: ['voucher give tnt 5 %player%']
+        percentage: 75
+        tier: 3
+      8:
+        item: MOB_SPAWNER
+        meta: 0
+        name: "cave-spider spawner"
+        commands: ['ss give %player% cspider']
+        percentage: 80
+        tier: 4
+      9:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "1000 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 1000']
+        percentage: 65
+        tier: 2
+      10:
+        item: MAP
+        meta: 0
+        name: "1 Advanced MAP"
+        commands: ['icrates give %player% Advanced 1']
+        percentage: 18
+        tier: 5
+      11:
+        item: GLOWSTONE_DUST
+        meta: 0
+        name: "2500 Mcmmo Credits"
+        commands: ['voucher give mcmmo 1 %player% 2500']
+        percentage: 50
+        tier: 4
+      12:
+        item: DIAMOND
+        meta: 0
+        name: "1x GSet"
+        commands: ['voucher give gset 1 %player%']
+        percentage: 65
+        tier: 3

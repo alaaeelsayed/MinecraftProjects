@@ -1,0 +1,70 @@
+upgrades:
+  swiftness:
+    level:
+      '1':
+        activation-percentage: 10
+      '2':
+        activation-percentage: 20
+      '3':
+        activation-percentage: 35
+    lore: '&6Swiftness %level%'
+    scrollname: '&e&l&nSwiftness %level%'
+  key-hunter:
+    level:
+      '1':
+        activation-percentage: 2
+        execute-commands:
+        - 'bc Hey man that''s cool'
+      '2':
+        activation-percentage: 3
+        execute-commands:
+        - 'bc Hey man that''s pretty cool'
+      '3':
+        activation-percentage: 4
+        execute-commands:
+        - 'bc cmonBruh'
+    lore: '&cReforge %level%'
+    scrollname: '&e&l&nReforge %level%'
+tiers:
+  tier1:
+    requiredxp: 400
+    chances:
+      anti-gravity:
+        level:
+          '1': 5
+  tier2:
+    requiredxp: 800
+    chances:
+      anti-gravity:
+        level:
+          '1': 5
+  tier3:
+    requiredxp: 1200
+    chances:
+      anti-gravity:
+        level:
+          '1': 5
+
+
+main:
+  size: 27
+  title: "&bEnchants"
+  items:
+    rewards:
+      name: "&3Something"
+      lore:
+        - "&2Jesus Change This Shit"
+      type: paper
+      slot: 11
+    capper:
+      name: "&2Something something"
+      lore:
+        - "&3Ok ok ok ok"
+      type: diamond_sword
+      slot: 13
+    shop:
+      name: "&2Man"
+      lore:
+        - "&3Nice thing here"
+      type: book
+      slot: 15

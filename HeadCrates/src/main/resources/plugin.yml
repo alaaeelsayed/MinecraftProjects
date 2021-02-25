@@ -1,0 +1,10 @@
+name: HeadCrates
+version: 1.0.0
+description: An amazing crates plugin.
+author: Headshot
+main: me.headshot.headcrates.HeadCrates
+depend: [Vault]
+commands:
+  headcrates:
+    description: 'The main headcrates command'
+    aliases: [hcrates]

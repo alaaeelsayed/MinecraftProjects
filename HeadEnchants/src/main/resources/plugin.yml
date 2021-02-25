@@ -1,0 +1,13 @@
+name: HeadEnchants
+version: 1.0.0
+description: Offers custom enchants and stuff.
+author: Headshot
+main: me.headshot.headenchants.HeadEnchants
+depend: [Factions, Vault, mcMMO, CombatTagPlus]
+commands:
+  henchants:
+    description: 'The main command'
+  enchanter:
+    description: 'The enchanter command'
+  enchants:
+    description: 'The enchants command'
